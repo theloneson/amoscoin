@@ -1,8 +1,10 @@
 [package]
 name = "my_first_coin"
+version = "0.0.1"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
-# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+# authors = ["Olorunfemi Amos (olorunfemiamos87@gmail.com)"]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
 
 [dependencies]
 
@@ -16,6 +18,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # To resolve a version conflict and force a specific version for dependency
 # override use `override = true`
 # Override = { local = "../conflicting/version", override = true }
+# Package ID = "0xda15c9fb3a3b6ee3189712560ded3bd7161d44107cf637f45491cb6105b46681"
 
 [addresses]
 my_first_coin = "0x0"
